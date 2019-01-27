@@ -1,6 +1,6 @@
 # Artemis
 
-Artemis is interactive community that bridges the gap between the virtual world and real technology, people, and wanderlust.
+Artemis is an interactive community that bridges the gap between the virtual world and real technology, people, and wanderlust.
 
 Artemis: Goddesses of the Hunt inspires movement, investigation, and face-to-face social
 interaction with our user-centric scavenger hunt Pursuits. She provides tech-curious young
