@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="458dp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/txtBarcodeValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:text="No Barcode Detected"
+        android:textColor="?attr/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/successButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:onClick="onClickSuccess"
+        android:visibility="gone"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+
+</RelativeLayout>

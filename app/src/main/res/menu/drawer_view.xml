@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+       <item android:title="Pursuits">
+           <menu>
+               <item
+                   android:id="@+id/SheInnovates"
+                   android:icon="@drawable/ic_sheinnovates"
+                   android:title="She Innovates" />
+               <item
+                   android:id="@+id/Fitness"
+                   android:icon="@drawable/ic_fitness"
+                   android:title="Fitness" />
+
+           </menu>
+       </item>
+       <item android:title="Activities">
+           <menu>
+               <item
+                   android:id="@+id/PNC"
+                   android:icon="@drawable/ic_people"
+                   android:title="Talk to a PNC Representative!">
+
+               </item>
+               <item
+                   android:id="@+id/Business"
+                   android:icon="@drawable/ic_business"
+                   android:title="Visit local business">
+
+               </item>
+           </menu>
+       </item>
+    </group>
+</menu>
